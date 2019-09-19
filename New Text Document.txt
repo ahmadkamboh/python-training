@@ -1,0 +1,140 @@
+                                                                        program:1
+
+
+string=("twinkle,winkle, little star,\n\t how i wonder what you are!\n\t\t up above the world so high,\n\t\t\tlike a diamond in the sky twinkle,\ntwinkle, little star\nhow i wonder what you are,")
+print(string)
+twinkle,winkle, little star,
+	 how i wonder what you are!
+		 up above the world so high,
+			like a diamond in the sky twinkle,
+twinkle, little star
+how i wonder what you are,
+
+
+                                                                        program:2
+
+
+import sys
+sys.version_info
+sys.version_info(major=3, minor=7, micro=3, releaselevel='final', serial=0)
+
+
+									program:3
+
+
+import datetime
+datetime_object=datetime.datetime.now()
+print(datetime_object)
+2019-09-19 14:52:44.289636
+
+
+									program:4
+
+
+r=int(input("enter area = "))
+pi=3.14
+area=pi*(r*r)
+print(area)
+									program:5
+
+
+f_name = input("enter your first_name")
+l_name = input("enter your last_name")
+a = list()
+a.append(f_name)
+b = list()
+b.append(l_name)
+final_list = (a + b)
+final_list.reverse()
+print(final_list)
+?
+enter your first_nameahmad
+enter your last_namekhalid
+['khalid', 'ahmad']
+									program:6
+
+
+a=int(input("enter 1st number ="))
+b=int(input("enter 2nd number ="))
+c=int(input("enter 3rd number ="))
+q=a,b,c
+?
+nlist=list(q)
+print(nlist)
+ntuple=tuple(q)
+print(ntuple)
+
+								
+									program:7
+
+
+import socket    
+hostname = socket.gethostname()    
+IPAddr = socket.gethostbyname(hostname)    
+print("Your Computer Name is:" + hostname)    
+print("Your Computer IP Address is:" + IPAddr)
+?
+Your Computer Name is:pc
+Your Computer IP Address is:192.168.0.102
+
+
+									program:8
+n = 20
+d = {"x":200}
+print(type(n)())
+print(type(d)())
+0
+{}
+
+
+									program:9
+
+
+import sys
+?
+print("\nList of directories in sys module:")
+?
+print(sys.path)
+?
+print("\nList of directories in os module:")
+?
+import os
+?
+print(os.path)
+
+List of directories in sys module:
+['C:\\Users\\Ahmad\\python-program', 'C:\\ProgramData\\Anaconda3\\python37.zip', 'C:\\ProgramData\\Anaconda3\\DLLs', 'C:\\ProgramData\\Anaconda3\\lib', 'C:\\ProgramData\\Anaconda3', '', 'C:\\ProgramData\\Anaconda3\\lib\\site-packages', 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\win32', 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\win32\\lib', 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\Pythonwin', 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\IPython\\extensions', 'C:\\Users\\Ahmad\\.ipython']
+
+List of directories in os module:
+<module 'ntpath' from 'C:\\ProgramData\\Anaconda3\\lib\\ntpath.py'>
+
+
+									program:10
+
+
+list = [386,462,47,418,907,344,236,375,823,566,597,978,328,615,953,345,399,162,758,219,918,237,412,566,826,248,866,950,626,
+        
+        949,687,217,815,67,104,58,512,24,892,894,767,553,81,379,843,831,445,742,717,958,743,527]
+for x in list:
+   
+    if (x % 2 ==0):
+        
+        print(x)
+    
+    if (x==237):
+        
+        print(x)
+        
+        break;
+386
+462
+418
+344
+236
+566
+978
+328
+162
+758
+918
+237
